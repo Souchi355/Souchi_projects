@@ -1,0 +1,26 @@
+body{
+  background-color: #E6E6E6;
+}
+.title{
+  color:white;
+  font-size:70px;
+  font-style: ;
+  text-align: center;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: black;
+}
+u{
+  color:#FFFFFF;
+}
+.arabic{
+  text-align: right;
+}
+.login{
+  color:white;
+  padding:5px 50px 5px 50px;
+  background-color: #4CAF50;
+  border: 1px;
+  border-radius: 10px;
+  font-style:Helvetica;
+  
+}
