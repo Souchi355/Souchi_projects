@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.b{
+    font-size: 50px;
+    font-family: 'Lobster', cursive;
+    width: 400px;
+    height: 150px;
+    border-radius: 12px;
+    background-color: purple;
+    border-color: seashell;
+    
+}
+.b:hover{
+    color: seashell;
+}
+hr{
+    height: 6px;
+    background-color:purple;
+    border: none;
+    border-radius: 8px;
+}
+
+.dfemme{
+    background-image: url(femme.gif) ;
+    height: 200px;
+    text-align: center;
+    padding-top: 25px;
+    background-position: 1px 1px;
+}
+
+.d7ar9a{
+    background-image: url(sea.jpg) ;
+    height: 200px;
+    text-align: center;
+    padding-top: 25px;
+    background-position:-10px -50px;
+}
+
+.dsoon{
+    background-image: url(wrk.jpg) ;
+    height: 200px;
+    text-align: center;
+    padding-top: 25px;
+    background-position:-10px -50px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lobster', cursive;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 0 5rem;
+}
+nav .logo{
+    display: flex;
+    font-size: 2rem;
+    align-items: center;
+}
+nav .logo i{
+    color:purple;
+    padding-left: 0.75rem;
+}
+
+nav .logo h4{
+    font-family: 'Lobster', cursive;
+}
+
+nav .nav-items{
+    display: flex;
+    list-style-type: none;
+}
+
+nav .nav-items .nav-item{
+    padding: 0 1rem;
+}
+
+nav .nav-link{
+    text-decoration: none;
+    color:#4e547e ;
+    font-size: 1.4rem;
+}
+
+nav .nav-link:hover{
+    color: purple;
+}
