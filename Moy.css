@@ -9,8 +9,8 @@ input[type="text"]{
 body{
   text-align: center;
   font-size: 17px;
-  transform: scale(3.3);
-  transform-origin: 0 0;
+  transform: scale(2.5);
+  transform-origin: 1 0;
 }
 td{
   border-color: black;
