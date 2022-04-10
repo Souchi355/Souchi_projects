@@ -1,0 +1,91 @@
+input[type="text"]{
+  width: 60px;
+  height:40px ;
+  border: None;
+  font-size: 20px;
+  text-align: center;
+  background-color:rgb(241,241,241);
+}
+body{
+  text-align: center;
+  font-size: 17px;
+  webkit-align-items: ;
+}
+td{
+  border-color: black;
+}
+tr{
+  border: None;
+}
+input[class="r"]{
+  width: 60px;
+  height:42px;
+  border: None;
+  text-align: center;
+  font-size: 20px;
+  background-color: rgb(239,239,239);
+  margin-top: 5px;
+}
+input[class="gr"]{
+  width: 240px;
+  height:40px ;
+  border: None;
+  background-color: rgb(240,240,240);
+  text-align: center;
+  font-size: 20px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  
+}
+table[class="grt"]{
+  margin-top:15px ;
+}
+table[class="mt"]{
+  margin-bottom:15px ;
+}
+input[id="reset"]{
+  width: 90px;
+  height:40px ;
+  font-size: 17px;
+  color: red;
+  border: None;
+  border-radius: 10px;
+}
+input[id="cal"]{
+  width: 90px;
+  height:40px ;
+  font-size: 17px;
+  color: #1E90FF;
+  border: None;
+  border-radius: 10px;
+}
+input[class="top"]{
+  width: 61px;
+  height:25px ;
+  border: None;
+  font-size: 13.5px;
+  text-align: center;
+  background-color:rgba(249,49,49,0.53);
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
+}
+input[class="top2"]{
+  width: 90px;
+  height:40px ;
+  border: None;
+  font-size: 15px;
+  text-align: center;
+  background-color:rgba(249,49,49,0.53);
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  
+}
+input[class="topr"]{
+  width: 240px;
+  height:40px ;
+  border: None;
+  font-size: 15px;
+  text-align: center;
+  background-color:rgba(249,49,49,0.53);
+  border-radius: 12px;
+}

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="cal2.css">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title></title>
+    <script src="cal.js">
+    </script>
+  </head>
+  <body>
+    <div class="maindiv">
+      <table border="2">
+        <tr><th colspan="7">
+          <input class="screen" size="10" type="button" id="screen" disabled>
+          
+          </th></tr>
+        <tr>
+          <td>
+            <input class="button" type="button" id="—>" value="—>" onclick="">
+            </td>
+          <td>
+            <input class="button" type="button" id="rad" value="Rad" onclick="">
+            </td>
+          <td>
+            <input class="button" type="button" id="√" value="√" onclick="screen('')">
+            </td>
+          <td>
+            <input style="color:red;" class="button" type="button" id="C" value="C" onclick="c()">
+            </td><td>
+              <input style="color:#1E90FF;" class="button" type="button" id="()" value="( )" onclick="screen(')')">
+              </td><td>
+                <input style="color:#1E90FF;" class="button" type="button" id="%" value="%" onclick="screen('%')">
+                </td><td>
+                  <input style="color:#1E90FF;" class="button" type="button" id="÷" value="÷" onclick="screen('÷')">
+                </td>
+        </tr>
+        <tr>
+          <td>
+            <input class="button" type="button" id="sin" value="sin" onclick="screen('sin(')">
+            </td>
+          <td>
+            <input class="button" type="button" id="cos" value="cos" onclick="screen('cos(')">
+            </td>
+          <td>
+            <input class="button" type="button" id="tan" value="tan" onclick="screen('tan(')">
+            </td>
+          <td>
+            <input class="button" type="button" id="7" value="7" onclick="screen('7')">
+            </td><td>
+              <input class="button" type="button" id="8" value="8" onclick="screen('8')">
+              </td><td>
+                <input class="button" type="button" id="9" value="9" onclick="screen('9')">
+                </td><td>
+                  <input style="color:#1E90FF;" class="button" type="button" id="×" value="×" onclick="screen('×')">
+                </td>
+        </tr>
+        <tr>
+          <td>
+            <input class="button" type="button" id="ln" value="ln" onclick="screen('')">
+            </td>
+            <td>
+            <input class="button" type="button" id="log" value="log" onclick="screen('')">
+            </td>
+            <td>
+            <input class="button" type="button" id="1/x" value="1/x" onclick="screen('1/')">
+            </td>
+        <td>
+            <input class="button" type="button" id="4" value="4" onclick="screen('4')">
+            </td><td>
+              <input class="button" type="button" id="5" value="5" onclick="screen('5')">
+              </td><td>
+                <input class="button" type="button" id="6" value="6" onclick="screen('6')">
+                </td><td>
+                  <input style="color:#1E90FF;" class="button" type="button" id="-" value="-" onclick="screen('-')">
+                </td>
+        </tr>
+        <tr>
+          <td>
+            <input class="button" type="button" id="e^x" value="e^x" onclick="screen('^')">
+            </td>
+            <td>
+            <input class="button" type="button" id="x²" value="x²" onclick="screen('^2')">
+            </td>
+            <td>
+            <input class="button" type="button" id="x^y" value="x^y" onclick="screen('^')">
+            </td>
+           <td>
+            <input class="button" type="button" id="1" value="1" onclick="screen('1')">
+            </td><td>
+              <input class="button" type="button" id="2" value="2" onclick="screen('2')">
+              </td><td>
+                <input class="button" type="button" id="3" value="3" onclick="screen('3')">
+                </td><td>
+                  <input style="color:#1E90FF;" class="button" type="button" id="+" value="+" onclick="screen('+')">
+                </td>
+        </tr>
+        <tr>
+          <td>
+            <input class="button" type="button" id="|x|" value="|x|" onclick="screen('')">
+            </td>
+            <td>
+            <input class="button" type="button" id="p" value="p" onclick="screen('3.1415926536')">
+            </td>
+            <td>
+            <input class="button" type="button" id="e" value="e" onclick="screen('2.7182818285')">
+            </td>
+          <td>
+            <input class="button" type="button" id="+/-" value="+/-" onclick="screen('(-')">
+            </td><td>
+              <input class="button" type="button" id="0" value="0" onclick="screen('0')">
+              </td><td>
+                <input class="button" type="button" id="." value="." onclick="screen('.')">
+                </td><td>
+                  <input style="color:white; background-color:#1E90FF;" class="button" type="button" id="=" value="=" onclick="display()">
+                </td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

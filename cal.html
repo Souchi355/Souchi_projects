@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="cal.css"
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title></title>
+    <script src="cal.js">
+    </script>
+  </head>
+  <body>
+    <div class="maindiv">
+      <table border="2">
+        <tr><th colspan="4">
+          <input class="screen" size="10" type="button" id="screen" disabled>
+          <div>
+            <select>
+              <option>H</option>
+              <option></option>
+            </select>
+            <input class="pro" type="button" id="M" value="M" onclick="">
+            <a href="cal2.html"><input style="margin-left:10px;" class="pro" type="button" id="№" value="№" ></a>
+            <input class="dpro" type="button" id="d" value="D" onclick="del()">
+          </div>
+          <hr>
+          </th></tr>
+        <tr>
+          <td>
+            <input style="color:red;" class="button" type="button" id="C" value="C" onclick="c()">
+            </td><td>
+              <input style="color:#1E90FF;" class="button" type="button" id="()" value="( )" onclick="screen(')')">
+              </td><td>
+                <input style="color:#1E90FF;" class="button" type="button" id="%" value="%" onclick="screen('%')">
+                </td><td>
+                  <input style="color:#1E90FF;" class="button" type="button" id="÷" value="÷" onclick="screen('÷')">
+                </td>
+        </tr>
+        <tr>
+          <td>
+            <input class="button" type="button" id="7" value="7" onclick="screen('7')">
+            </td><td>
+              <input class="button" type="button" id="8" value="8" onclick="screen('8')">
+              </td><td>
+                <input class="button" type="button" id="9" value="9" onclick="screen('9')">
+                </td><td>
+                  <input style="color:#1E90FF;" class="button" type="button" id="×" value="×" onclick="screen('×')">
+                </td>
+        </tr>
+        <tr>
+        <td>
+            <input class="button" type="button" id="4" value="4" onclick="screen('4')">
+            </td><td>
+              <input class="button" type="button" id="5" value="5" onclick="screen('5')">
+              </td><td>
+                <input class="button" type="button" id="6" value="6" onclick="screen('6')">
+                </td><td>
+                  <input style="color:#1E90FF;" class="button" type="button" id="-" value="-" onclick="screen('-')">
+                </td>
+        </tr>
+        <tr>
+           <td>
+            <input class="button" type="button" id="1" value="1" onclick="screen('1')">
+            </td><td>
+              <input class="button" type="button" id="2" value="2" onclick="screen('2')">
+              </td><td>
+                <input class="button" type="button" id="3" value="3" onclick="screen('3')">
+                </td><td>
+                  <input style="color:#1E90FF;" class="button" type="button" id="+" value="+" onclick="screen('+')">
+                </td>
+        </tr>
+        <tr>
+          <td>
+            <input class="button" type="button" id="+/-" value="+/-" onclick="screen('(-')">
+            </td><td>
+              <input class="button" type="button" id="0" value="0" onclick="screen('0')">
+              </td><td>
+                <input class="button" type="button" id="." value="." onclick="screen('.')">
+                </td><td>
+                  <input style="color:white; background-color:#1E90FF;" class="button" type="button" id="=" value="=" onclick="display()">
+                </td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

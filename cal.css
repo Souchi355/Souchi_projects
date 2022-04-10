@@ -1,0 +1,76 @@
+
+.maindiv{
+}
+.button{
+  border-radius: 100px;
+  height: 85px;
+  width: 85px;
+  background-color: white;
+  
+}
+.screen{
+  border-radius: 15px;
+  height: 100px;
+  width: 350px;
+  border: None;
+  color:#1E90FF;
+}
+th{
+  border-radius: 15px;
+  border: None;
+}
+td{
+  text-size-adjust: 100px;
+  border-radius: 1000000px;
+  border: None;
+}
+table{
+  border-radius: 15px;
+}
+input[type="button"] {
+  font-size:30px;
+}
+input[type="button"]:hover{
+  background-color: #DCDCDC;
+}
+hr{
+  background-color:#D4E6F1;
+  border-radius: 100px;
+  height: 1px;
+  border: None;
+}
+input[class="pro"] {
+  font-size:30px;
+  border: None;
+  background-color: white;
+  border-radius: 10000px;
+  width: 40px;
+  height: 40px;
+  margin-left: 8px;
+  color:#1E90FF;
+}
+input[class="dpro"] {
+  font-size:30px;
+  border: None;
+  background-color: white;
+  border-radius: 10000px;
+  width: 40px;
+  height: 40px;
+  margin-left: 160px;
+  color: #A9CCE3;
+}
+select{
+  width: 40px;
+  height: 40px;
+  border: None;
+  text-align: center;
+  background-color:white ;
+  font-size: 30px;
+  color: #1E90FF;
+}
+.h{
+  border: None;
+  background-color: ;
+  width: 370px;
+  height: 1000px;
+}
