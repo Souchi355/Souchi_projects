@@ -8,8 +8,8 @@ input[type="button"]{
   background-color: rgba(29,253,255,0.602);
 }
 body{
-  max-width: 768px;
-  max-height: 1024px;
+  max-width: 1536px;
+  max-height: 2048px;
   margin: auto;
   display: block;
 }
