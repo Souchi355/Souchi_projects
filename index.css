@@ -7,3 +7,9 @@ input[type="button"]{
   border-radius: 12px;
   background-color: rgba(29,253,255,0.602);
 }
+body{
+  max-width: 768px;
+  max-height: 1024px;
+  margin: auto;
+  display: block;
+}
