@@ -74,3 +74,9 @@ select{
   width: 370px;
   height: 1000px;
 }
+body{
+  max-width: 768px;
+  max-height: 1024px;
+  margin: auto;
+  display: block;
+}
