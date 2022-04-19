@@ -9,8 +9,10 @@ input[type="text"]{
 body{
   text-align: center;
   font-size: 17px;
-  transform: scale(2.5);
-  transform-origin: 1 0;
+  max-width: 768px;
+  max-height: 1024px;
+  margin: auto;
+  display: block;
 }
 td{
   border-color: black;
@@ -62,7 +64,7 @@ input[id="cal"]{
 }
 input[class="top"]{
   width: 61px;
-  height:25px ;
+  height:35px ;
   border: None;
   font-size: 13.5px;
   text-align: center;
