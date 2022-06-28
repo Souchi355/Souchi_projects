@@ -1,6 +1,11 @@
 from numpy import array
 from turtle import *
 
+resizemode(rmode="auto")
+setup( width = 50, height = 50, startx = None, starty = None) 
+
+
+hideturtle()
 def repere():
         speed(0)
         k=0
@@ -80,7 +85,13 @@ def repere():
         write("-15",move=True,font=('Arial', 3, 'normal'))
         goto(1,(18*15)+18*-20)
         write("-20",move=True,font=('Arial', 3, 'normal'))
-        
+tracer(0)
+penup()
+goto(-342,-700)
+write("by rayenbenyoussef")
+pendown()
+update()
+   
 v=False
 while v==False:
     type=textinput("choose type prbl / hyprbl :","")
@@ -91,7 +102,7 @@ x=array([float()]*n)
 y=array([str]*n)
 x1=array([float()]*n)
 y1=array([str]*n)
-hideturtle()
+
 if type=="prbl":
     penup()
     goto(-342,360)
@@ -115,7 +126,7 @@ if type=="prbl":
     pencolor("white")
     width(1000)
     goto(0,-500)
-    width(1)
+    width(0.05)
     pencolor("black")
     a=f[0:f.find("x**2")]
     b=f[f.find("**2")+3:f.find("x",len(f[0:f.find("x")+1]))]
@@ -295,6 +306,26 @@ if type=="prbl":
     
     goto(-90,-650)
     write("f(x)= "+f)
+    
+    goto(x[0],720)
+    n=715
+    for i in range(88):
+        goto(x[0]*18,n)
+        penup()
+        n-=5
+        goto(x[0]*18,n)
+        pendown()
+        n-=5
+    penup()
+    goto(-342,(y[0])*18)
+    n=337
+    for i in range(69):
+        goto(n,y[0]*18+(18*15))
+        penup()
+        n-=5
+        goto(n,y[0]*18+(18*15))
+        pendown()
+        n-=5
     
     update()
 elif type=="hyprbl":
@@ -477,6 +508,26 @@ elif type=="hyprbl":
     
     goto(-90,-650)
     write("f(x)= "+f)
+  
+    goto(x[0],720)
+    n=715
+    for i in range(88):
+        goto(x[0]*18,n)
+        penup()
+        n-=5
+        goto(x[0]*18,n)
+        pendown()
+        n-=5
+    penup()
+    goto(-342,(a/c)*18)
+    n=337
+    for i in range(69):
+        goto(n,(a/c)*18+(18*15))
+        penup()
+        n-=5
+        goto(n,(a/c)*18+(18*15))
+        pendown()
+        n-=5
     
     update()
 mainloop()
